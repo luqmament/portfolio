@@ -1,0 +1,179 @@
+# ===========================
+# SECRETS & CREDENTIALS
+# ===========================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.env
+secrets/
+credentials/
+tokens/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+id_rsa*
+*.id_rsa*
+known_hosts
+.acme*
+letsencrypt/
+
+# API keys & tokens
+api_key
+api-key
+api_keys
+apikey
+SECRET_KEY
+SECRET_KEY_BASE
+ACCESS_TOKEN
+REFRESH_TOKEN
+GITHUB_TOKEN
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+STRIPE_KEY
+STRIPE_SECRET
+DATABASE_URL
+POSTGRES_PASSWORD
+MYSQL_PASSWORD
+REDIS_PASSWORD
+
+# Passwords & auth files
+password
+passwords.txt
+passwd
+.htpasswd
+htpasswd
+
+# Cloud provider credentials
+*.gcpkey
+*.azurekey
+*.doCredentials
+
+# ===========================
+# SECRETS — Additional patterns
+# ===========================
+# Generic secret patterns (commented out to avoid false positives, uncomment if needed)
+# *secret*
+# *token*
+# *_SECRET
+# *_TOKEN
+
+# ===========================
+# OS & EDITOR FILES
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+~$*
+
+# Editor
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.nova/
+*.sublime-*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# ===========================
+# BUILD OUTPUTS & CACHE
+# ===========================
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm
+.yarn-integrity
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+pip-log.txt
+.pybuilder/
+target/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go-sdk/
+vendor/
+
+# Java / Gradle
+.gradle/
+build/
+*.jar
+*.war
+*.ear
+
+# ===========================
+# SECURE FILES
+# ===========================
+credentials.json
+service-account.json
+google_credentials.json
+firebase-key.json
+*.p12
+
+# ===========================
+# SECURE NOTES
+# ===========================
+*.notes
+note.txt
+notes.txt
+cheatsheet.txt
+
+# ===========================
+# GITHUB SPECIAL
+# ===========================
+# GitHub Secret Scanning push protection bypass comments (NEVER commit these)
+# ghp_*
+# github_pat_*
+
+# ===========================
+# MISC
+# ===========================
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+temp/
+tmp/
+.cache/
