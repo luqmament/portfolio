@@ -1,4 +1,4 @@
-# Lukman Hakim — Portfolio
+# Luqman Hakim — Portfolio
 
 Personal portfolio showcasing my work, skills, and experience as a Software Engineer.
 
