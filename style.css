@@ -164,7 +164,25 @@ nav {
   font-size: 20px;
   color: var(--text-secondary);
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+}
+
+.hero-at {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.hero-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.hero-location svg {
+  opacity: 0.7;
 }
 
 .hero-desc {
@@ -431,6 +449,12 @@ nav {
 
 .project-link:hover {
   color: var(--accent);
+}
+
+.project-link-disabled {
+  color: var(--text-muted);
+  opacity: 0.5;
+  cursor: default;
 }
 
 .project-desc {
